@@ -63,3 +63,6 @@ brew install zopfli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Update list of installed packages
+brew leaves > brew_installed.list
